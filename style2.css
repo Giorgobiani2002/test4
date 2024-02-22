@@ -1,0 +1,47 @@
+
+body {
+    background-color: black;
+    margin:0;
+}
+header {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+    
+}
+nav ul li {
+    color: rgb(88, 54, 10);
+    padding: 10px;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+main {
+    color: aliceblue;
+    background-color: rgb(149, 131, 108);
+}
+footer {
+    color:aliceblue;
+    background-color: brown;
+}
+p {
+    color: red;
+}
+header:hover {
+    background-color: rgb(24, 43, 60);
+    transition: 2s;
+    color: black;
+}
+header a:hover{
+    color: black;
+}
+
